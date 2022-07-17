@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="module12.css">
+    <!-- Google fonts for Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="home">
+        Maria Michaels
+        <br>
+        CSD 340 Web Development with HTML and CSS
+    </header>
+
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#hobbies">HOBBIES</a>
+        <a href="#experience">EXPERIENCE</a>
+    </nav>
+
+    <div class="container">
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+            <div class="grid-3-col">
+                <div class="card">
+
+                    <div class="card-title">
+                        GAMING
+                    </div>
+                    <div class="card-content">
+                        <img src="images/dragonflight.jpg">
+                        <br>
+                        Gaming has always been one of my favorite hobbies.
+                        Having grown up constantly moving, it gave me the ability to always be connected to my friends.
+                        Gaming was also the reason I got into coding - I wanted to know how everything worked behind the scenes.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        READING
+                    </div>
+                    <div class="card-content">
+                        <img src="books.jpg">
+                        <br>
+                        Most of the time, I have an unending TBR list that needs to be finished, but things keep on being added.
+                        I started reading as a way to escape to a different world, but have since expanded to read everything that sounded remotely interesting.
+                        My current goal for reading is 85 books per year, emphasizing different genres and languages.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        VOLUNTEER WORK
+                    </div>
+                    <div class="card-content">
+                        <img src="pride.jpg">
+                        <br>
+                        Since I was in university, I always wanted to volunteer and work with causes that are important to me.
+                        I have volunteered with animal care organizations, such as shelters, women's rights organizations, and nursing homes.
+                        Currently, I volunteer with The Trevor Project to help LGBTQ+ youth navigate the world.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br /><br /><br /><br /><br />
+        <div class="experience" id="experience">
+            <h1>Experience</h1>
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                        Education
+                    </div>
+                    <div class="card-content">
+                        To be truthful, I have a varied background in education. initially, I received my BA (Hons) Design Management from Regent's University in London, UK.
+                        After I immigrated to the US, I finished my AS in Mathematics from Northeast Community College in preparation for a technical career. At the same time, I finished my Master in Project Management from Bellevue University.
+                        Currently, I am completing my BS Software Development from Bellevue University, and pondering a doctorate.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Digital Marketing
+                    </div>
+                    <div class="card-content">
+                        Throughout my career, I worked a lot of odd jobs, from legal to selling Kirby vacuum cleaners. My first full-time job landed me in digital marketing at Nestle Nespresso.
+                        The majority of my work revolved around capital expenditure on display furniture and project management related to those installations.
+                        However, as the world trended to the internet space, I have pioneered the e-corner project, creating cloud spaces on partner websites to include our curated content.
+                        For the project, I worked with a partner that provided the majority of the code and edited the received code. Once that was completed, and code was proven to respond to specific websites, I negotiated implementations.
+                        Using cloud integration, we added rich content to several partner websites, creating a new digital space.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        IT Operations and Development
+                    </div>
+                    <div class="card-content">
+                        My goal has always been to work in IT.
+                        Initially, I started with doing some code work in digital marketing. Then, I got into IT and technical support.
+                        Eventually, I have switched to supervising IT technical support, working on processes, training, and technical projects for the area.
+                        Recently, I have moved to a job I have wanted for a long time as an application analyst.
+                        I am now working on maintaining ERP systems, applications, and API integrations.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <div class="card full-width">
+                <div class="card-title">
+                    Contact Form
+                </div>
+
+                <div class="card-content">
+
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name: Maria</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name: Michaels</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email: mqmeducation@gmail.com</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
