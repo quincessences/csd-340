@@ -89,6 +89,7 @@ h1 {
 
 .card-content {
     padding: 2px 16px;
+    text-align: center;
 }
 
 .card:hover {
